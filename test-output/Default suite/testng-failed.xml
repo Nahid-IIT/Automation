@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nahid.Automation.FirstAutomation">
+      <class name="Nahid.Automation.LocatorExample">
         <methods>
-          <include name="firstTest"/>
           <include name="close"/>
+          <include name="testLocator"/>
           <include name="start"/>
         </methods>
-      </class> <!-- Nahid.Automation.FirstAutomation -->
+      </class> <!-- Nahid.Automation.LocatorExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
