@@ -56,6 +56,8 @@ public class LocatorExample extends BaseDriver{
 		
 		//css -> elementName[attributeName='attributeValue']
 		WebElement name = driver.findElement(By.cssSelector("input[name='dest_from']"));
+		name.click();
+		Thread.sleep(1000);
 		
 	}
 
